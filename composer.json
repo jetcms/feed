@@ -1,0 +1,24 @@
+{
+    "name": "jetcms/feed",
+    "description": "CMS",
+    "keywords": ["laravel", "cms", "controllers", "feed"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex. Suroviy",
+            "email": "suroviy@bk.ru"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "roumen/feed": "v2.9.*",
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "JetCMS\\Feed\\": "src/"
+        }
+    }
+}
